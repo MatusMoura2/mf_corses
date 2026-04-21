@@ -1,0 +1,43 @@
+<div class="app-container">
+  <header class="app-header">
+    <div class="top-row">
+      <div class="logo-box">
+        <img src="res/moura_forte logo.png" alt="MF Moura Forte" class="logo-img">
+      </div>
+      <div class="title-box">
+        <h1 class="main-title">Roadmaps</h1>
+      </div>
+    </div>
+
+    <nav class="tabs-row">
+      <a href="#" class="tab active" (click)="$event.preventDefault()">Home</a>
+      <a href="#" class="tab" (click)="$event.preventDefault()">Linguagens de programação</a>
+      <a href="#" class="tab" (click)="$event.preventDefault()">CI/CD</a>
+      <a href="#" class="tab" (click)="$event.preventDefault()">Games</a>
+      <a href="#" class="tab" (click)="$event.preventDefault()">Outros</a>
+    </nav>
+  </header>
+
+  <main class="content-area">
+    <router-outlet></router-outlet>
+
+    <div class="placeholder-content">
+      <h2>Nossa Visão de Aprendizado</h2>
+      <p>
+        Sou um grande admirador do trabalho de Pierluigi Piazzi, principalmente pela forma como ele desmistifica a
+        inteligência. Para mim, a inteligência não é um dom fixo ou um privilégio de poucos, mas sim uma habilidade que
+        pode ser desenvolvida com disciplina, consistência e o método certo. Acredito que qualquer pessoa, com dedicação
+        e
+        direcionamento adequado, pode evoluir sua capacidade de aprender e resolver problemas.
+      </p>
+      <p>
+        Com um bom curso e um roadmap bem estruturado, é possível aprender praticamente qualquer coisa. O segredo está
+        em
+        ter clareza dos próximos passos, prática constante e um ambiente que favoreça o aprendizado. Mais do que
+        talento,
+        o que realmente faz diferença é a constância — aprender todos os dias, mesmo que um pouco, é o que constrói
+        resultados sólidos ao longo do tempo.
+      </p>
+    </div>
+  </main>
+</div>
