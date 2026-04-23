@@ -1,0 +1,30 @@
+<div class="dashboard-container">
+  <header class="dashboard-header">
+    <h1>Melhores Cursos do Mercado</h1>
+    <p>Escolha seu caminho</p>
+  </header>
+
+  <div class="cursos-grid">
+    <a *ngFor="let curso of cursos" [href]="curso.link" target="_blank" class="curso-card">
+  <div class="card-imagem">
+    <img [src]="curso.fotoCapa" [alt]="curso.titulo" />
+  </div>
+
+  <div class="card-conteudo">
+    <h2>{{ curso.titulo }}</h2>
+    
+    <p class="card-resumo">{{ curso.descricao }}</p>
+
+    <div class="card-expandivel">
+      <div class="card-detalhes">
+        <p>{{ curso.descricaoCompleta }}</p>
+      </div>
+    </div>
+
+    <div class="card-footer">
+      <span>Acessar Curso →</span>
+    </div>
+  </div>
+</a>
+  </div>
+</div>
