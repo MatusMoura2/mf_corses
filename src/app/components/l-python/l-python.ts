@@ -18,4 +18,16 @@ export class LPython {
     // Redireciona para o curso da Hotmart
     window.location.href = 'https://go.hotmart.com/Q103374756K';
   }
+
+  downloadDataScienceAndRedirect() {
+    const link = document.createElement('a');
+    link.href = 'res/python/pe-ciencia-de-dados.pdf'; // Caminho correto para o PDF de Ciência de Dados
+    link.download = 'pe-ciencia-de-dados.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    // Redireciona para o curso da Hotmart
+    window.location.href = 'https://go.hotmart.com/A103374636C';
+  }
 }

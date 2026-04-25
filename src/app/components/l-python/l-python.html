@@ -45,4 +45,58 @@
   <div class="cta-container">
     <button class="cta-button" (click)="downloadAndRedirect()">Baixar plano de estudos Python</button>
   </div>
+
+  <div class="python-expert-text">
+    <h2>Ciência de Dados com Python: Do Zero ao Especialista</h2>
+    <p>Existe um mito perigoso no mercado: a ideia de que "Ciência de Dados é apenas importar o Pandas e chamar .fit()". Se você acha que basta saber comandos básicos para ser um Cientista de Dados, você é apenas um usuário de bibliotecas, não um cientista.</p>
+    <p>A Ciência de Dados é uma disciplina que exige rigor matemático, eficiência algorítmica e capacidade de engenharia de software. Python é a linguagem escolhida porque funciona como a "ponte" entre o raciocínio humano e a performance bruta de C/C++/CUDA.</p>
+
+    <h3>🗺️ O Cronograma de Masterização</h3>
+    <ul>
+      <li><strong>0-3 Meses</strong> — Engenharia de Dados & Estruturas: Manipulação de dados de alta performance.</li>
+      <li><strong>4-6 Meses</strong> — Matemática & Estatística: Entender o que acontece "debaixo do capô" dos modelos.</li>
+      <li><strong>7-12 Meses</strong> — Machine Learning & Modelagem: Seleção de algoritmos e otimização.</li>
+      <li><strong>13-18 Meses</strong> — Deep Learning & Performance: Redes neurais, GPUs e otimização.</li>
+      <li><strong>19-24 Meses</strong> — MLOps & Engenharia de Sistemas: Colocar modelos em produção (Deployment, Pipelines).</li>
+    </ul>
+
+    <h3>1. Fase de Fundação: Engenharia sobre Sintaxe</h3>
+    <p>Não aprenda apenas a usar o Pandas. Aprenda a pensar em vetores. Python for Data Science: Esqueça loops for. Aprenda vetorização. Se você está iterando sobre um DataFrame, você está fazendo errado.</p>
+    <p>NumPy: É a fundação. Entenda broadcasting, strides e como o Python aloca memória para arrays. Se você não sabe o que é memory layout (Row-major vs. Column-major), você terá gargalos de performance.</p>
+    <p>Pandas: Dominar índices, multi-indexing, e operações complexas de groupby e merge com grandes volumes.</p>
+
+    <h3>2. O Alicerce Invisível: Matemática & Estatística</h3>
+    <p>Se você não sabe a matemática, você é perigoso. Você pode estar treinando um modelo que não faz sentido e, como o código não dá erro, você entrega resultados errados.</p>
+    <p>Álgebra Linear: Matrizes, autovetores e autovalores. É como o computador "enxerga" os dados.</p>
+    <p>Cálculo: Derivadas e Gradientes. Você precisa entender o Gradiente Descendente para saber por que seu modelo não está convergindo.</p>
+    <p>Estatística Inferencial: Testes de hipóteses, distribuições, intervalos de confiança. Sênior não olha apenas para a precisão; ele olha para o p-valor e a significância estatística.</p>
+
+    <h3>3. O Mundo dos Modelos: Machine Learning Real</h3>
+    <p>Aqui a brincadeira fica séria.</p>
+    <p>Scikit-Learn: O padrão ouro. Aprenda não apenas a rodar o modelo, mas a construir Pipelines.</p>
+    <p>Pre-processing: Feature Engineering é onde o jogo é ganho. Tratamento de outliers, normalização, encoding de variáveis categóricas.</p>
+    <p>Teoria de Aprendizado: Viés vs. Variância, Overfitting vs. Underfitting. Entenda a teoria para diagnosticar o erro do seu modelo.</p>
+
+    <h3>4. O Nível Especialista: Deep Learning & Performance</h3>
+    <p>Quando os dados são desestruturados (imagens, texto, áudio), entramos em Deep Learning.</p>
+    <p>Frameworks: Escolha um (PyTorch é o padrão atual da pesquisa e indústria; TensorFlow é forte em produção).</p>
+    <p>GPU Computing: Entenda como mover cálculos para a GPU (CUDA). Se você não usa GPU, você está perdendo tempo.</p>
+    <p>Performance: Aprenda a identificar gargalos (CPU bound vs I/O bound). Se necessário, escreva kernels em Cython ou Numba para acelerar Python puro.</p>
+
+    <h3>5. MLOps: Onde o Júnior vira Sênior</h3>
+    <p>Cientistas de dados que não sabem colocar modelo em produção são apenas "analistas caros".</p>
+    <p>Docker: Seu modelo precisa rodar em qualquer lugar.</p>
+    <p>Pipelines de CI/CD: Automação de testes para modelos (validação de dados, validação de modelo).</p>
+    <p>Serviços: Como servir uma API de predição (FastAPI, Flask) que aguente carga real.</p>
+    <p>Monitoramento: Model drift e data drift. Como saber se o seu modelo, que funcionava ontem, está entregando lixo hoje?</p>
+
+    <h3>A Diferença entre o Usuário e o Cientista</h3>
+    <p>O Usuário: Importa o scikit-learn, dá fit, olha o gráfico e diz "está funcionando".</p>
+    <p>O Cientista: Questiona a fonte dos dados, testa a significância estatística, otimiza o pipeline para latência, cria testes unitários para a limpeza dos dados e garante que o modelo seja reproduzível.</p>
+    <p>Dica final de especialista: A linguagem é Python, mas a inteligência está na arquitetura. Se você quer ser um sênior, pare de focar apenas em algoritmos e comece a estudar Sistemas de Dados. Como armazenar, como processar, como servir. A Ciência de Dados é, acima de tudo, uma disciplina de engenharia.</p>
+
+    <div class="cta-container">
+      <button class="cta-button" (click)="downloadDataScienceAndRedirect()">Baixar PDF Ciência de Dados</button>
+    </div>
+  </div>
 </div>
