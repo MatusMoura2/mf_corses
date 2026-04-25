@@ -16,6 +16,6 @@ export class LPython {
     document.body.removeChild(link);
 
     // Redireciona para o curso da Hotmart
-    window.location.href = 'https://go.hotmart.com/A103374636C';
+    window.location.href = 'https://go.hotmart.com/Q103374756K';
   }
 }
