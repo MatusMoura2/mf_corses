@@ -6,6 +6,7 @@ import { Linguagens } from './components/linguagens/linguagens';
 
 import { LJava } from './components/l-java/l-java';
 import { LPython } from './components/l-python/l-python';
+import { LJsvascript } from './components/l-jsvascript/l-jsvascript';
 import { ConcursoPublico } from './components/concurso-publico/concurso-publico';
 import { Matematica } from './components/matematica/matematica';
 import { Portugues } from './components/portugues/portugues';
@@ -21,6 +22,7 @@ export const routes: Routes = [
   { path: 'games', component: Games },
   { path: 'l-java', component: LJava },
   { path: 'l-python', component: LPython },
+  { path: 'l-javascript', component: LJsvascript },
   { path: 'concursos', component: ConcursoPublico },
   { path: 'matematica', component: Matematica },
   { path: 'portugues', component: Portugues },

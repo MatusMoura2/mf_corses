@@ -1,1 +1,90 @@
-<p>l-jsvascript works!</p>
+<div class="roadmap-container">
+  <h1>JavaScript Fullstack: A Trilha de Especialização</h1>
+
+  <p>JavaScript não é apenas uma "linguagem de script" para fazer animações no browser. Hoje, ela é a base de um ecossistema completo — do cliente ao servidor. Como o site que você mantém já é construído sobre esta base, a sua capacidade de escalar e otimizar esse projeto depende diretamente de quão fundo você entende a engine que executa o código.</p>
+
+  <p>Se você quer ser um Especialista Fullstack JS, esqueça "tutoriais de React" ou "como usar o Express". O foco é o motor.</p>
+
+  <h2>🗺️ JavaScript Fullstack: A Trilha de Especialização (24 Meses)</h2>
+  <p>Este roadmap assume que você já escreve código e quer dominar a arquitetura de sistemas baseados em JS/TS.</p>
+
+  <h3>Fase 1: A Engine (O "Porquê" do Código)</h3>
+  <p>Se você não entende como o motor V8 funciona, você não é Sênior, você é um usuário de framework.</p>
+  <ul>
+    <li><strong>V8 Engine Internals:</strong> Como o JIT (Just-in-Time) compiler funciona? Entenda Hidden Classes e Inline Caching.</li>
+    <li><strong>Memory Management:</strong> Garbage Collector, Heap vs. Stack, Memory Leaks em aplicações de longa duração.</li>
+    <li><strong>Event Loop:</strong> A diferença real entre Task Queue e Microtask Queue (process.nextTick vs Promise.resolve). Isso define a latência do seu backend.</li>
+    <li><strong>Non-blocking I/O:</strong> Entenda profundamente por que o JS é single-threaded e como o libuv gerencia o pool de threads no backend.</li>
+  </ul>
+
+  <h3>Fase 2: Domínio do Frontend (O Cliente)</h3>
+  <p>Como o site é JS-based, o carregamento e a renderização são o seu gargalo principal.</p>
+  <ul>
+    <li><strong>Rendering Strategies:</strong> Domine as diferenças entre CSR, SSR, SSG e ISG. Saiba quando sacrificar a performance inicial pela interatividade.</li>
+    <li><strong>DOM & Web APIs:</strong> Esqueça jQuery. Entenda Web Components, Shadow DOM, Intersection Observer e Canvas API para renderização de alta performance.</li>
+    <li><strong>Build Tooling:</strong> Saiba configurar o Vite ou Webpack do zero. Entenda Tree Shaking, Code Splitting e otimização de bundle. O peso do seu site no carregamento é sua responsabilidade.</li>
+    <li><strong>State Management:</strong> Não apenas usar Redux/Zustand. Entenda o custo computacional de cada atualização de estado e a reconciliação (o "diff" do DOM).</li>
+  </ul>
+
+  <h3>Fase 3: Domínio do Backend (O Runtime)</h3>
+  <p>O Node.js/Bun/Deno é apenas o ambiente. O código é a sua lógica.</p>
+  <ul>
+    <li><strong>Arquitetura de APIs:</strong> gRPC vs REST vs GraphQL. Saiba quando usar cada um.</li>
+    <li><strong>Streaming & Buffers:</strong> Se o site manipula grandes volumes de dados (arquivos, relatórios), pare de carregar tudo na memória. Aprenda a usar Streams.</li>
+    <li><strong>Worker Threads:</strong> Saiba delegar tarefas pesadas de CPU para outras threads para não bloquear o Event Loop principal.</li>
+    <li><strong>Segurança:</strong> OWASP Top 10 para aplicações Node.js. Gestão de tokens (JWT), CORS, Rate Limiting e prevenção de Injection.</li>
+  </ul>
+
+  <h3>Fase 4: O Ecossistema Fullstack (Arquitetura)</h3>
+  <ul>
+    <li><strong>TypeScript:</strong> Uso obrigatório. Entenda Generics, Mapped Types e como o compilador TS garante a segurança da sua arquitetura.</li>
+    <li><strong>Data Layer:</strong> Otimização de queries (SQL é linguagem de Sênior). Entenda Indexing, Connection Pooling e quando usar Redis para caching.</li>
+    <li><strong>Infraestrutura:</strong> Docker e Kubernetes não são "mágica". Entenda como os cgroups limitam o consumo de memória da sua instância Node.js e como configurar Health Checks eficientes.</li>
+    <li><strong>Observabilidade:</strong> OpenTelemetry. Você precisa de tracing distribuído para saber exatamente onde a requisição atrasou (Frontend, API, ou Banco de Dados).</li>
+  </ul>
+
+  <h2>🚀 Resumo do Cronograma de Evolução</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Trimestre</th>
+        <th>Foco Principal</th>
+        <th>Onde aplicar (no seu site)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Q1-Q2</td>
+        <td>Internals & Memory</td>
+        <td>Profiling de memória e otimização do GC.</td>
+      </tr>
+      <tr>
+        <td>Q3-Q4</td>
+        <td>Async & Event Loop</td>
+        <td>Refatoração de fluxos bloqueantes e I/O.</td>
+      </tr>
+      <tr>
+        <td>Q5-Q6</td>
+        <td>Render & Build</td>
+        <td>Otimização de assets e estratégias de SSR/SSG.</td>
+      </tr>
+      <tr>
+        <td>Q7-Q8</td>
+        <td>System Design</td>
+        <td>Microsserviços, mensageria e resiliência.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>O Diferencial do Sênior JS</h2>
+  <ul>
+    <li><strong>Framework é descartável:</strong> O Sênior sabe que hoje é React/Next.js, amanhã pode ser outra coisa. O conhecimento da engine e dos padrões de projeto (Clean Architecture, SOLID) permanece.</li>
+    <li><strong>Performance é matemática:</strong> Um Sênior mede o custo de uma função (Big O). Um Júnior apenas testa se "funciona". Se o seu site está lento, o culpado é a má gestão do Event Loop ou queries ineficientes.</li>
+    <li><strong>Ambiente de Produção:</strong> Sênior se preocupa com logs, métricas e o que acontece quando o servidor cai às 3 da manhã. Se o site é JS-based, você precisa dominar o diagnóstico de erro no ambiente de produção.</li>
+  </ul>
+  <p>Aviso: O caminho é técnico, árduo e exige leitura constante da documentação oficial do V8 e do Node.js. Se você busca atalhos, você terá um sistema frágil. A senioridade no ecossistema JavaScript é conquistada quando você para de culpar a linguagem pela lentidão e assume o controle total do que acontece sob o capô.</p>
+
+  <div class="cta-container">
+    <button class="cta-button" (click)="downloadAndRedirect()">Baixar plano de estudos JavaScript</button>
+  </div>
+</div>
