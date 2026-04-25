@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './matematica.html',
   styleUrl: './matematica.css',
 })
-export class Matematica {}
+export class Matematica {
+  redirectToCourse() {
+    window.location.href = 'https://go.hotmart.com/T105543899T?ap=3d33';
+  }
+}

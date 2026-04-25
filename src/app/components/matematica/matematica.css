@@ -14,3 +14,32 @@
 .roadmap-container p {
   margin-bottom: 1rem;
 }
+
+.cta-container {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 210, 255, 0.5);
+}
+
+.cta-button:active {
+  transform: translateY(1px);
+}

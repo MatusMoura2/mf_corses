@@ -72,6 +72,15 @@ export class Dashboard {
       fotoCapa: '../res/nn/nn.jpg',
       link: 'https://go.hotmart.com/F105516101P',
       categoria: 'Outros'
+    },
+    {
+      id: 7,
+      titulo: 'Método Rei - Matemática',
+      descricao: 'Matemática Básica e Raciocínio Lógico para concursos',
+      descricaoCompleta: 'Um curso completo de Matemática Básica e Raciocínio Lógico voltados para concursos públicos. Com os assuntos que mais aparecem nos principais concursos, todos os módulos com PDF, aula teórica, aula de exercícios e um simulado incrível, em que seu rendimento é calculado na hora e a resolução também será em vídeo.\n\nAlém de tudo isso, são entregues bônus incríveis que custariam caro se fossem cobrados!\n\nO professor Reinaldo tem o método perfeito para a sua aprovação, começando do zero e terminando somente na posse!',
+      fotoCapa: '../res/matematica/metodo rei matematica.png',
+      link: 'https://go.hotmart.com/T105543899T?ap=3d33',
+      categoria: 'Concursos'
     }
   ];
 }
