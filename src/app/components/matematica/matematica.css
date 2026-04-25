@@ -1,0 +1,16 @@
+.roadmap-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.roadmap-container h1 {
+  color: #00d2ff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.roadmap-container p {
+  margin-bottom: 1rem;
+}
