@@ -25,6 +25,9 @@ import { RouterLink } from '@angular/router';
       <p>Estude todos os dias, mesmo que um pouco.
         <a routerLink="/dashboard"> Acesse nosso site para mais informações.</a>
       </p>
+      <p>
+        Veja as nossas <a routerLink="/linguagens">linguagens</a> disponíveis para estudo.
+      </p>
     </div>
   `
 })

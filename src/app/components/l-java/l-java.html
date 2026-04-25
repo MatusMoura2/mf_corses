@@ -1,0 +1,61 @@
+<div class="roadmap-container">
+  <h1>Java do 0 a Sênior: O Caminho Real</h1>
+
+  <p>Ser Sênior não é sobre quanto tempo você codifica, é sobre o que você entende quando as coisas param de funcionar. O mercado está cheio de gente que sabe configurar um Spring Boot, mas não sabe o que acontece na memória da JVM quando o servidor cai.</p>
+
+  <p>Este é o mapa. Se você pular etapas, vai ser um eterno "Sênior de título".</p>
+
+  <h2>1. Fundamentos: Onde a maioria falha</h2>
+  <p>Antes de tocar em qualquer framework, você precisa entender a linguagem.</p>
+  <ul>
+    <li><strong>JDK, JRE e JVM:</strong> Saiba o que é cada um. Entenda o processo de compilação (Java -> Bytecode -> JIT).</li>
+    <li><strong>Estrutura Básica:</strong> Variáveis, tipos primitivos, operadores, controle de fluxo e escopo.</li>
+    <li><strong>Input/Output:</strong> Manipulação básica de arquivos e streams.</li>
+  </ul>
+  <p>Se você não domina a sintaxe, não tente pular para o Spring.</p>
+
+  <h2>2. Orientação a Objetos (POO): O Alicerce</h2>
+  <p>Java é POO. Se você escreve código Java procedural, você está usando a ferramenta errada.</p>
+  <ul>
+    <li><strong>Os 4 Pilares:</strong> Encapsulamento, Herança, Polimorfismo e Abstração. Se não souber explicar isso com exemplos reais, volte atrás.</li>
+    <li><strong>Interfaces vs Classes Abstratas:</strong> Decisão de design, não estética.</li>
+    <li><strong>Exceções:</strong> Checked vs Unchecked. Pare de fazer <code>catch (Exception e) {{ '{' }}{{ '}' }}</code> e engolir erros.</li>
+  </ul>
+
+  <h2>3. Java Moderno (Java 8+)</h2>
+  <p>Não existe mais Java "antigo". O código moderno é declarativo.</p>
+  <ul>
+    <li><strong>Lambdas e Streams API:</strong> Essencial para manipulação de coleções.</li>
+    <li><strong>Optional:</strong> Acabe com os NullPointerException.</li>
+    <li><strong>API de Datas (java.time):</strong> Nunca mais use Date ou Calendar.</li>
+    <li><strong>Records (Java 14+):</strong> Imutabilidade nativa e redução de boilerplate.</li>
+  </ul>
+
+  <h2>4. O Mundo Enterprise (Onde você trabalha)</h2>
+  <p>Aqui é onde você ganha salário. É o padrão de mercado.</p>
+  <ul>
+    <li><strong>Build Tools:</strong> Maven ou Gradle. Saiba resolver conflito de dependências.</li>
+    <li><strong>Spring Boot/Framework:</strong> Injeção de dependência, Inversão de Controle, Ciclo de vida dos Beans.</li>
+    <li><strong>Persistência:</strong> JPA/Hibernate. Entenda o que é N+1, entenda o que o ORM gera de SQL no banco.</li>
+    <li><strong>Testes:</strong> JUnit, Mockito, Testcontainers. Sênior que não testa código é um risco para a empresa.</li>
+  </ul>
+
+  <h2>5. O Nível Sênior: O que está debaixo do capô</h2>
+  <p>Aqui é onde você para de ser um "codificador" e vira um engenheiro de software. Se você não sabe o que acontece aqui, você é dependente da sorte.</p>
+  <ul>
+    <li><strong>JVM Internals:</strong> Entenda o que é Stack e Heap. Como o Garbage Collector (G1, ZGC, Shenandoah) funciona? Como ele pausa sua aplicação?</li>
+    <li><strong>Gerenciamento de Memória:</strong> Aprenda a ler dumps de memória, identificar Memory Leaks e usar o JFR (Java Flight Recorder) para diagnóstico.</li>
+    <li><strong>Concorrência:</strong> Entenda o modelo de threads do Java. O que é o Global Interpreter Lock (não existe em Java, mas o conceito de bloqueio sim). Estude CompletableFuture, Locks, Atomic e o Project Loom (Virtual Threads) para alta escala.</li>
+    <li><strong>Bytecode:</strong> Saiba ler um pouco de bytecode quando o compilador ou uma biblioteca fizer algo estranho.</li>
+    <li><strong>Arquitetura:</strong> Não é só colocar Spring. É entender o impacto da latência, escolha de protocolos, transações distribuídas e como o Java se comporta em containers (Docker/Kubernetes) — entenda como o cgroup limita sua JVM.</li>
+  </ul>
+
+  <h2>A Realidade</h2>
+  <p>Ser Sênior é saber tomar decisões baseadas em trade-offs. É saber quando não usar um padrão de projeto, quando trocar um framework por algo mais performático, e como debugar um problema de performance em produção às 3 da manhã quando nem logs claros você tem.</p>
+
+  <p>O caminho é longo, chato e exige leitura de documentação oficial, não de tutoriais de blog. Se você busca o atalho, você nunca será sênior de fato. Estude o funcionamento da JVM. É aí que mora a diferença.</p>
+
+  <div class="cta-container">
+    <button class="cta-button" (click)="downloadAndRedirect()">Baixar plano de estudos java</button>
+  </div>
+</div>
