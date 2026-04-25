@@ -12,10 +12,10 @@
     <nav class="tabs-row">
       <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="tab">Home</a>
       <a routerLink="/linguagens" routerLinkActive="active" class="tab">Linguagens de programação</a>
-      <a href="#" class="tab" (click)="$event.preventDefault()">CI/CD</a>
-      <a href="#" class="tab" (click)="$event.preventDefault()">Games</a>
+      <a routerLink="/ci-cd" routerLinkActive="active" class="tab">CI/CD</a>
+      <a routerLink="/games" routerLinkActive="active" class="tab">Games</a>
       <a routerLink="/concursos" routerLinkActive="active" class="tab">Concurso Público</a>
-      <a href="#" class="tab" (click)="$event.preventDefault()">Outros</a>
+      <a routerLink="/outros" routerLinkActive="active" class="tab">Outros</a>
     </nav>
   </header>
 

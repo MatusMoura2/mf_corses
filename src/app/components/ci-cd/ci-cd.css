@@ -1,21 +1,21 @@
-.linguagens-container {
+.category-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
   line-height: 1.6;
 }
 
-.linguagens-container h2 {
+.category-container h2 {
   color: #3a7bd5;
   margin-bottom: 1rem;
 }
 
-.linguagens-container p {
+.category-container p {
   margin-bottom: 1.5rem;
   color: var(--text-secondary);
 }
 
-.linguagens-container ul {
+.category-container ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -23,7 +23,7 @@
   gap: 1rem;
 }
 
-.linguagens-container li a {
+.category-container li a {
   display: inline-block;
   background: rgba(58, 123, 213, 0.1);
   color: #00d2ff;
@@ -39,7 +39,7 @@
   text-align: center;
 }
 
-.linguagens-container li a:hover {
+.category-container li a:hover {
   background: rgba(58, 123, 213, 0.2);
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0, 210, 255, 0.2);
