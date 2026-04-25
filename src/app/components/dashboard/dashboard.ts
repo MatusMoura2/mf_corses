@@ -81,6 +81,15 @@ export class Dashboard {
       fotoCapa: '../res/matematica/metodo rei matematica.png',
       link: 'https://go.hotmart.com/T105543899T?ap=3d33',
       categoria: 'Concursos'
+    },
+    {
+      id: 8,
+      titulo: 'MATEMÁTICA PARA FGV',
+      descricao: 'Matemática Básica e Raciocínio Lógico para concursos',
+      descricaoCompleta: 'Matemática para FGV (Fundação Getúlio Vargas) e concursos públicos é um curso prático de macetes e resoluções de muitas questões de provas anteriores de concursos públicos abordando a matemática básica que é frequentemente cobrada em concursos:\n\nNúmeros inteiros: operações e propriedades.\n\nNúmeros racionais, representação fracionária e decimal: operações e propriedades.\n\nMínimo múltiplo comum.\n\nRazão e proporção.\n\nPorcentagem.\n\nRegra de três simples.\n\nMédia aritmética simples.\n\nEquação do 1º grau.\n\nSistema de equações do 1º grau.\n\nSistema métrico: medidas de tempo, comprimento, superfície e capacidade.\n\nRelação entre grandezas: tabelas e gráficos.\n\nNoções de geometria: forma, perímetro, área, volume, teorema de Pitágoras.\n\nRaciocínio lógico.\n\nResolução de situações-problema.\n\nCom explicações passo a passo e com método bem prático, explico questão por questão de um jeito fácil e simples de compreender às resoluções. Assim, todo aluno poderá desenvolver e aprender a Matemática para concursos e sair desse curso 100% ou quase 100% preparado para diversas provas de concurso de nível fundamental e médio.\n\nNeste curso, você terá acesso a centenas de questões corrigidas. Como ficar bom na Matemática para concursos? Justamente fazendo o que este curso propõe: muitas questões. No início deste curso, há 100 questões corrigidas passo passo e com nível menor para que você possa dar os primeiros passos com tranquilidade. E durante todo curso iremos avançando com mais e mais questões.',
+      fotoCapa: '../res/matematica/MatemticaparaFGV1.jpg',
+      link: 'https://go.hotmart.com/P105543892O',
+      categoria: 'Concursos'
     }
   ];
 }
