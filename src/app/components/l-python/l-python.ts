@@ -21,8 +21,8 @@ export class LPython {
 
   downloadDataScienceAndRedirect() {
     const link = document.createElement('a');
-    link.href = 'res/python/pe-ciencia-de-dados.pdf'; // Caminho correto para o PDF de Ciência de Dados
-    link.download = 'pe-ciencia-de-dados.pdf';
+    link.href = 'res/python/pe-cienciadados.pdf'; // Caminho correto para o PDF de Ciência de Dados
+    link.download = 'pe-cienciadados.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
